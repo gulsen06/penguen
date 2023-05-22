@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(193, 233, 220);
+}
+.penguen {
+  position: relative;
+  margin: 9rem auto;
+  /* border: 2px solid brown; */
+  width: 18.5rem;
+  height: 18.5rem;
+}
+.penguen * {
+  position: absolute;
+}
+.penguen-ayrinti {
+  width: 8.25rem;
+  height: 8.25rem;
+  background-color: rgb(34, 33, 33);
+  border-radius: 70% 70% 50% 50%;
+  top: 1rem;
+  left: 4.225rem;
+}
+.penguean-genel {
+  width: 8.5em;
+  height: 8.5rem;
+  background-color: rgb(34, 33, 33);
+  border-radius: 70% 70% 80% 80%;
+  top: 6rem;
+  left: 4.225rem;
+}
+.sag-el {
+  width: 3rem;
+  height: 4.5rem;
+  background-color: rgb(34, 33, 33);
+  border-radius: 90% 35% 130% 30%;
+  left: -0.8rem;
+  top: 1.6rem;
+  transform: rotate(50deg);
+  animation-name: penguen;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+.sol-el {
+  width: 3rem;
+  height: 4.5rem;
+  background-color: rgb(34, 33, 33);
+  border-radius: 30% 90% 35% 130%;
+  left: 7rem;
+  top: 1.6rem;
+  transform: rotate(-50deg);
+}
+
+.sol-bas {
+  width: 5rem;
+  height: 5rem;
+  background-color: white;
+  border-radius: 70% 70% 60% 60%;
+  top: 1.4rem;
+  left: 0.5rem;
+}
+.sag-bas {
+  width: 5rem;
+  height: 5rem;
+  background-color: white;
+  border-radius: 70% 70% 60% 60%;
+  top: 1.4rem;
+  left: 2.5rem;
+}
+.karin {
+  width: 7rem;
+  height: 7rem;
+  background-color: white;
+  border-radius: 70% 70% 60% 60%;
+  top: 5.5rem;
+  left: 0.66rem;
+}
+.sag-ayak {
+  width: 2rem;
+  height: 2rem;
+  background-color: coral;
+  top: 7.4rem;
+  left: 1.5rem;
+  border-radius: 90% 50% 130% 50%;
+  z-index: -1;
+}
+.sol-ayak {
+  width: 2rem;
+  height: 2rem;
+  background-color: coral;
+  top: 7.3rem;
+  left: 5.2rem;
+  border-radius: 50% 130% 50% 90%;
+  z-index: -1;
+}
+.sag-goz {
+  width: 1.2rem;
+  height: 0.2rem;
+  background-color: black;
+  border-radius: 100%;
+  top: 3rem;
+  left: 2rem;
+}
+.sol-goz {
+  width: 1.2rem;
+  height: 0.2rem;
+  background-color: black;
+  border-radius: 100%;
+  top: 3rem;
+  left: 5rem;
+}
+.ust-gaga {
+  width: 1.5rem;
+  height: 1.2rem;
+  background-color: coral;
+  top: 4.4rem;
+  left: 3rem;
+  border-radius: 50% 90% 90% 50% / 50% 50% 130% 130%;
+}
+.sol-yanak {
+  width: 1.2rem;
+  height: 1rem;
+  background-color: rgb(240, 193, 193);
+  border-radius: 100%;
+  top: 4rem;
+  left: 1.5rem;
+}
+.sag-yanak {
+  width: 1.2rem;
+  height: 1rem;
+  background-color: rgb(240, 193, 193);
+  border-radius: 100%;
+  top: 4rem;
+  left: 4.8rem;
+}
+@keyframes penguen {
+  10% {
+    transform: rotate(110deg);
+  }
+  20% {
+    transform: rotate(120deg);
+  }
+  30% {
+    transform: rotate(100deg);
+  }
+  40% {
+    transform: rotate(120deg);
+  }
+  50% {
+    transform: rotate(110deg);
+  }
+  60% {
+    transform: rotate(120deg);
+  }
+  70% {
+    transform: rotate(130deg);
+  }
+  90% {
+    transform: rotate(120deg);
+  }
+}
